@@ -53,7 +53,7 @@ class Maestrano_Sso_User extends Maestrano_Sso_BaseUser
    *
    * @return boolean whether the user was successfully set in session or not
    */
-  protected function setInSession()
+  protected function setInSession(& $http_session)
   {
   }
   
